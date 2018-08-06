@@ -1,0 +1,20 @@
+.register {
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+
+.error {
+  margin-top: 20px;
+  background-color: #e42e2e;
+  padding: 5px 0px;
+  border-radius: 5px;
+
+}
+
+.error p {
+  margin: 5px 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.0em;
+}
