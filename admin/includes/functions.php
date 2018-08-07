@@ -37,6 +37,7 @@ function add_product() {
         $query = "INSERT INTO products (product_name, product_console, product_genre, product_age, product_quantity, product_price, product_url) VALUES ('$name', '$console', '$genre', '$age', '$quantity', '$price', '$image')";
         $add_product = mysqli_query($connection, $query);
         if (!$add_product) {
+          
         $admin_error_message = "Failed to add product to database please try again";
         }
       }
