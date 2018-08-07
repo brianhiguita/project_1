@@ -16,7 +16,7 @@ add_product();
       <form class="" action="" method="post">
         <div class="form-group">
           <label for="exampleInputEmail1">Name</label>
-          <input type="text" class="form-control" name="game_name" value="" placeholder="name of the game">
+          <input type="text" class="form-control" name="game_name" value="">
         </div>
 
         <div class="form-group">
@@ -50,12 +50,12 @@ add_product();
 
         <div class="form-group">
           <label for="quantity">Product Quantity</label>
-          <input type="number" class="form-control" name="quantity" value="" placeholder"Amount of product">
+          <input type="number" class="form-control" name="quantity" value="">
         </div>
 
         <div class="form-group">
           <label for="price">Product Price</label>
-          <input type="float" class="form-control" name="price" value="" placeholder="Product Price">
+          <input type="float" class="form-control" name="price" value="">
         </div>
 
         <div class="form-group">
