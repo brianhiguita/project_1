@@ -18,3 +18,8 @@
   font-weight: 700;
   font-size: 1.0em;
 }
+
+
+.register_button a {
+  color: red;
+}

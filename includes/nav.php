@@ -27,9 +27,18 @@
         <a class="nav-link disabled" href="#">Disabled</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <div class="register_button">
+
+      <?php if ($_SERVER['PHP_SELF'] == "/project_1/index.php") {
+        echo '<a class="nav-link" href="register.php">Register</a>';
+      } else {
+        echo '<a class="nav-link" href="index.php">Sign In</a>';
+      }
+
+       ?>
+
+
+    </div>
+
   </div>
 </nav>
