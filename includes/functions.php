@@ -1,5 +1,7 @@
 <?php
 
+// FRONT END
+
 function register() {
 
   global $connection;
@@ -79,6 +81,12 @@ function login() {
   }
 
 }
+
+
+
+
+
+// BACK END
 
 
 ?>

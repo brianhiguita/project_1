@@ -7,38 +7,28 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="index.php">Link</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
+
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
       </li>
     </ul>
-    <div class="register_button">
+    <ul class="navbar-nav register_button">
+      <li class="nav-item">
+        <?php if ($_SERVER['PHP_SELF'] == "/project_1/login.php") {
+          echo '<a class="nav-link" href="register.php">Register</a>';
+        } else {
+          echo '<a class="nav-link" href="login.php">Sign In</a>';
+        }
 
-      <?php if ($_SERVER['PHP_SELF'] == "/project_1/index.php") {
-        echo '<a class="nav-link" href="register.php">Register</a>';
-      } else {
-        echo '<a class="nav-link" href="index.php">Sign In</a>';
-      }
+         ?>
+      </li>
+    </ul>
 
-       ?>
-
-
-    </div>
 
   </div>
 </nav>

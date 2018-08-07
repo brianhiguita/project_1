@@ -20,6 +20,6 @@
 }
 
 
-.register_button a {
-  color: red;
+.register_button li a {
+  color: red !important;
 }
