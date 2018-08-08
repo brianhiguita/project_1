@@ -23,3 +23,11 @@
 .register_button li a {
   color: red !important;
 }
+
+.table-sticky {
+	thead th {
+		position: sticky;
+		top: 0;
+		background-color: #a20000;
+	}
+}
