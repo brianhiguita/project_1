@@ -3,10 +3,12 @@
 <?php include "includes/nav.php"; ?>
 
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-md-12">
-      <h1>admin</h1>
+    <div class="col-md-2 sidebar">
+      <?php include "includes/sidenav.php"; ?>
+    </div>
+    <div class="col-md-10">
 
 
       <table class="table table-light table-sticky">
